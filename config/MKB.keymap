@@ -31,7 +31,7 @@
 
         bt_Layer {
             bindings = <&mo 5>;
-            key-positions = <40 39 56>;
+            key-positions = <40 39 29>;
         };
     };
 
