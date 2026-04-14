@@ -392,11 +392,9 @@ path.combo { stroke: #7f7f7f; }
 <text x="322" y="203" class="combo tap layer-activator">Mouse</text>
 </a></g>
 <g class="combo combopos-1">
-<path d="M287,201 l45,7" class="combo"/>
-<path d="M287,201 l-52,-3" class="combo"/>
-<rect rx="6" ry="6" x="273" y="188" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="303" y="169" width="28" height="26" class="combo"/>
 <a href="#BT">
-<text x="287" y="201" class="combo tap layer-activator">BT</text>
+<text x="317" y="182" class="combo tap layer-activator">BT</text>
 </a></g>
 </g>
 </g>
@@ -649,11 +647,9 @@ path.combo { stroke: #7f7f7f; }
 <text x="322" y="203" class="combo tap layer-activator">Mouse</text>
 </a></g>
 <g class="combo combopos-1">
-<path d="M287,201 l45,7" class="combo"/>
-<path d="M287,201 l-52,-3" class="combo"/>
-<rect rx="6" ry="6" x="273" y="188" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="303" y="169" width="28" height="26" class="combo"/>
 <a href="#BT">
-<text x="287" y="201" class="combo tap layer-activator">BT</text>
+<text x="317" y="182" class="combo tap layer-activator">BT</text>
 </a></g>
 </g>
 </g>
@@ -903,11 +899,9 @@ path.combo { stroke: #7f7f7f; }
 <text x="322" y="203" class="combo tap layer-activator">Mouse</text>
 </a></g>
 <g class="combo combopos-1">
-<path d="M287,201 l45,7" class="combo"/>
-<path d="M287,201 l-52,-3" class="combo"/>
-<rect rx="6" ry="6" x="273" y="188" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="303" y="169" width="28" height="26" class="combo"/>
 <a href="#BT">
-<text x="287" y="201" class="combo tap layer-activator">BT</text>
+<text x="317" y="182" class="combo tap layer-activator">BT</text>
 </a></g>
 </g>
 </g>
@@ -1161,11 +1155,9 @@ path.combo { stroke: #7f7f7f; }
 <text x="322" y="203" class="combo tap layer-activator">Mouse</text>
 </a></g>
 <g class="combo combopos-1">
-<path d="M287,201 l45,7" class="combo"/>
-<path d="M287,201 l-52,-3" class="combo"/>
-<rect rx="6" ry="6" x="273" y="188" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="303" y="169" width="28" height="26" class="combo"/>
 <a href="#BT">
-<text x="287" y="201" class="combo tap layer-activator">BT</text>
+<text x="317" y="182" class="combo tap layer-activator">BT</text>
 </a></g>
 </g>
 </g>
@@ -1420,11 +1412,9 @@ path.combo { stroke: #7f7f7f; }
 <text x="322" y="203" class="combo tap layer-activator">Mouse</text>
 </a></g>
 <g class="combo combopos-1">
-<path d="M287,201 l45,7" class="combo"/>
-<path d="M287,201 l-52,-3" class="combo"/>
-<rect rx="6" ry="6" x="273" y="188" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="303" y="169" width="28" height="26" class="combo"/>
 <a href="#BT">
-<text x="287" y="201" class="combo tap layer-activator">BT</text>
+<text x="317" y="182" class="combo tap layer-activator">BT</text>
 </a></g>
 </g>
 </g>
@@ -1561,9 +1551,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(308, 140)" class="key trans keypos-29">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(308, 140)" class="key held keypos-29">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(644, 140)" class="key trans keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1671,9 +1660,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
 <text x="0" y="0" class="key tap">END</text>
 </g>
-<g transform="translate(216, 196)" class="key held keypos-56">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap">A</text>
+<g transform="translate(216, 196)" class="key keypos-56">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">A</text>
 </g>
 <g transform="translate(734, 196)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1685,11 +1674,9 @@ path.combo { stroke: #7f7f7f; }
 <text x="322" y="203" class="combo tap layer-activator">Mouse</text>
 </a></g>
 <g class="combo combopos-1">
-<path d="M287,201 l45,7" class="combo"/>
-<path d="M287,201 l-52,-3" class="combo"/>
-<rect rx="6" ry="6" x="273" y="188" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="303" y="169" width="28" height="26" class="combo"/>
 <a href="#BT">
-<text x="287" y="201" class="combo tap layer-activator">BT</text>
+<text x="317" y="182" class="combo tap layer-activator">BT</text>
 </a></g>
 </g>
 </g>

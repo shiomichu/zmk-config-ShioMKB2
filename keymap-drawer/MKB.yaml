@@ -325,7 +325,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -352,10 +352,10 @@ layers:
   - ENTER
   - PG DN
   - END
-  - {t: A, type: held}
+  - A
   - B
 combos:
 - p: [39, 40]
   k: Mouse
-- p: [40, 39, 56]
+- p: [40, 39, 29]
   k: BT
