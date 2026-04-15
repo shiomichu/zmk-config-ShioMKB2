@@ -64,12 +64,12 @@
         num_layer {
             label = "L1";
             bindings = <
-&trans    &kp N1  &kp N2     &kp N3    &kp N4     &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
-&trans    &kakko  &kp F2     &kp F3    &kp F4     &trans         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
-&trans    &kp F6  &kp DEL    &trans    &trans     &trans         &trans     &kp FSLH   &kp SEMI   &kp SQT    &trans     &trans
-&trans    &trans  &kp ENTER            &trans     &kp ENTER      &kp ENTER  &kp ENTER             &trans     &trans     &trans
-&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                            &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
-                             &trans                                                    &trans
+&trans    &kp N1  &kp N2     &kp N3    &kp N4     &kp N5            &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
+&trans    &kakko  &kp F2     &kp F3    &kp F4     &bt BT_SEL 4      &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT   &kp BSLH   &trans
+&trans    &kp F6  &kp DEL    &trans    &trans     &trans            &trans     &kp FSLH   &kp SEMI   &kp SQT    &trans     &trans
+&trans    &trans  &kp ENTER            &trans     &kp ENTER         &kp ENTER  &kp ENTER             &trans     &trans     &trans
+&kp LEFT  &kp UP  &kp SPACE  &kp DOWN  &kp RIGHT                               &kp HOME   &kp PG_UP  &kp ENTER  &kp PG_DN  &kp END
+                             &trans                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
