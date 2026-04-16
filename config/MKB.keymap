@@ -106,8 +106,8 @@
             bindings = <
 &kp GRAVE                &kp LS(SLASH)  &kp JP_DQT  &kp EXCLAMATION  &kp JP_ASTRK  &kp JP_PLUS      &kp JP_CARET  &kp JP_UNDER  &none        &kp JP_LPAR  &kp JP_RPAR  &trans
 &kp LANG_ZENKAKUHANKAKU  &kp JP_AMPS    &kp JP_SQT  &kp DOLLAR       &none         &kp JP_BSLH      &kp HASH      &none         &kp PERCENT  &kp JP_LBKT  &kp JP_RBKT  &trans
-&trans                   &kp F6         &kp F7      &kp F8           &none         &kp JP_PIPE      &kp JP_TILDE  &kp JP_YEN    &none        &kp JP_LBRC  &kp JP_RBRC  &trans
-&trans                   &trans         &trans                       &trans        &trans           &trans        &trans                     &trans       &trans       &trans
+&trans                   &kp F6         &kp F7      &kp F8           &none         &kp JP_PIPE      &kp JP_TILDE  &kp JP_YEN    &kp JP_AT  &kp JP_LBRC  &kp JP_RBRC  &trans
+&trans                   &trans         &trans                       &trans        &trans           &mo 3        &trans                     &trans       &trans       &trans
 &kp LEFT                 &kp UP         &trans      &kp DOWN         &kp RIGHT                                    &kp HOME      &kp PG_UP    &trans       &kp PG_DN    &kp END
                                                     &trans                                                                      &trans
             >;
@@ -121,7 +121,8 @@
 &trans    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5       &kp N6    &kp N7        &kp N8        &kp N9        &kp N0     &kp DELETE
 &trans    &kakko  &kp F2  &kp F3    &kp F4     &kp F5       &kp PLUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans     &kp ASTERISK
 &trans    &kp F6  &kp F7  &kp F8    &kp F9     &kp F10      &kp N0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans     &trans
-&trans    &trans  &trans            &trans     &trans       &mo 3     &trans                      &trans        &trans     &trans
+&trans    &trans  &trans            &trans     &trans       &trans     &mo 5                      &trans       
+                                                &trans     &trans
 &kp LEFT  &kp UP  &trans  &kp DOWN  &kp RIGHT                         &kp HOME      &kp PG_UP     &trans        &kp PG_DN  &kp END
                           &trans                                                    &trans
             >;
