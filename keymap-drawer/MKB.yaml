@@ -106,8 +106,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT
   - UP
   - {t: ▽, type: trans}
@@ -118,6 +116,8 @@ layers:
   - {t: ▽, type: trans}
   - PG DN
   - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Num:
   - {t: ▽, type: trans}
   - '1'
@@ -226,16 +226,16 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - {t: ▽, type: trans}
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - {t: ▽, type: trans}
   - PG DN
   - END
-  - A
-  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Scr:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,16 +285,16 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - {t: ▽, type: trans}
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - {t: ▽, type: trans}
   - PG DN
   - END
-  - A
-  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   BT:
   - BT CLR
   - {t: BT, h: '0'}
@@ -344,16 +344,16 @@ layers:
   - {t: ▽, type: trans}
   - LEFT
   - UP
-  - SPACE
+  - {t: ▽, type: trans}
   - DOWN
   - RIGHT
   - HOME
   - PG UP
-  - ENTER
+  - {t: ▽, type: trans}
   - PG DN
   - END
-  - A
-  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [39, 40]
   k: {t: Num, h: toggle}
