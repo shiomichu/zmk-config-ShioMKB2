@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BKSP
+  - BACKSPACE
   - {t: ESC, h: BT}
   - A
   - S
@@ -37,7 +37,7 @@ layers:
   - DOT
   - UP
   - FSLH
-  - {t: ESC, h: LCTL}
+  - {t: ESC, h: LCTRL}
   - LGUI
   - LALT
   - {t: SPACE, h: Num}
