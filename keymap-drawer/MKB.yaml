@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - MINUS
-  - {t: ENTER, h: NumFunc}
+  - ENTER
   - LSHFT
   - Z
   - X
@@ -54,7 +54,7 @@ layers:
   - RIGHT
   - HOME
   - PG UP
-  - {t: Mouse, h: toggle}
+  - {t: ' TB ', h: toggle}
   - PG DN
   - END
   - ''
@@ -142,7 +142,7 @@ layers:
   - '5'
   - '6'
   - {t: ▽, type: trans}
-  - {t: ASTERISK, type: held}
+  - ASTERISK
   - {t: ▽, type: trans}
   - F6
   - F7
@@ -160,7 +160,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Mouse
+  - {t: ' TB ', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,7 +177,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Mouse:
+  ' TB ':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -201,7 +201,6 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,6 +217,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - _TB_
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -266,7 +266,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -276,8 +275,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -325,6 +325,58 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - UP
+  - {t: ▽, type: trans}
+  - DOWN
+  - RIGHT
+  - HOME
+  - PG UP
+  - {t: ▽, type: trans}
+  - PG DN
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  _TB_:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc MOVE_Y(20)'
+  - '&msc MOVE_Y(-20)'
+  - '&mkp MB5'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - '&mkp MB4'
+  - '&mkp MB4'
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -338,6 +390,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -356,6 +415,6 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [39, 40]
-  k: {t: NumFunc, h: toggle}
+  k: {t: ' TB ', h: toggle}
 - p: [40, 39, 29]
-  k: Scr
+  k: BT
