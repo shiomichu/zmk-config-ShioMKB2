@@ -12,7 +12,7 @@
 
         slow {
             layers = <7>;
-            input-processors = <&zip_xy_scaler 1/6>;
+            input-processors = <&zip_xy_scaler 1 6>;
         };
 
         scroll {
