@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: MKB}
 layers:
-  L0[:
+  Base:
   - TAB
   - Q
   - W
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - MINUS
+  - BACKSPACE
   - CAPSLOCK
   - A
   - S
@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - SEMI
-  - {t: SQT, h: Mouse}
+  - MINUS
+  - {t: ENTER, h: Mouse}
   - LSHFT
   - Z
   - X
@@ -71,29 +71,29 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - '&kakko'
   - F2
   - F3
   - F4
-  - {t: BT, h: '4'}
-  - MINUS
-  - EQUAL
-  - LBKT
-  - RBKT
-  - BSLH
+  - F5
+  - PLUS
+  - '4'
+  - '5'
+  - '6'
   - {t: ▽, type: trans}
+  - ASTERISK
   - {t: ▽, type: trans}
   - F6
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - FSLH
-  - SEMI
-  - SQT
+  - F7
+  - F8
+  - F9
+  - F10
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -181,6 +181,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&msc MOVE_Y(20)'
+  - '&msc MOVE_Y(-20)'
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -189,13 +192,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - '&mkp MB4'
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB3'
