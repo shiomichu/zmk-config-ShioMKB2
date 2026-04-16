@@ -233,8 +233,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(924, 84)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ENTER</text>
-<a href="#Num">
-<text x="0" y="24" class="key hold layer-activator">Num</text>
+<a href="#NumFunc">
+<text x="0" y="24" class="key hold layer-activator">NumFunc</text>
 </a></g>
 <g transform="translate(28, 140)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -310,8 +310,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(602, 210)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<a href="#kigo">
-<text x="0" y="24" class="key hold layer-activator">kigo</text>
+<a href="#NumFunc">
+<text x="0" y="24" class="key hold layer-activator">NumFunc</text>
 </a></g>
 <g transform="translate(658, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -365,8 +365,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(532, 224)" class="key keypos-53">
 <rect rx="6" ry="6" x="-12" y="-12" width="24" height="24" class="key"/>
-<a href="#Num">
-<text x="0" y="0" class="key tap layer-activator">Num</text>
+<a href="#Mouse">
+<text x="0" y="0" class="key tap layer-activator">Mouse</text>
 </a><text x="0" y="10" class="key hold">toggle</text>
 </g>
 <g transform="translate(532, 252)" class="key keypos-54">
@@ -387,8 +387,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
-<a href="#Num">
-<text x="322" y="203" class="combo tap layer-activator">Num</text>
+<a href="#NumFunc">
+<text x="322" y="203" class="combo tap layer-activator">NumFunc</text>
 </a><text x="322" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
@@ -456,7 +456,9 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(28, 84)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;tog_ls</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em" style="font-size: 64%">LANG</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">ZENKAKUHAN…</tspan>
+</text>
 </g>
 <g transform="translate(84, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -574,12 +576,12 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(602, 210)" class="key held keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-</g>
-<g transform="translate(658, 196)" class="key trans keypos-42">
+<g transform="translate(602, 210)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g transform="translate(658, 196)" class="key held keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(812, 196)" class="key trans keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -647,8 +649,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
-<a href="#Num">
-<text x="322" y="203" class="combo tap layer-activator">Num</text>
+<a href="#NumFunc">
+<text x="322" y="203" class="combo tap layer-activator">NumFunc</text>
 </a><text x="322" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
@@ -658,8 +660,8 @@ path.combo { stroke: #7f7f7f; }
 </a></g>
 </g>
 </g>
-<g transform="translate(30, 644)" class="layer-Num">
-<text x="0" y="28" class="label" id="Num">Num:</text>
+<g transform="translate(30, 644)" class="layer-NumFunc">
+<text x="0" y="28" class="label" id="NumFunc">NumFunc:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -900,8 +902,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
-<a href="#Num">
-<text x="322" y="203" class="combo tap layer-activator">Num</text>
+<a href="#NumFunc">
+<text x="322" y="203" class="combo tap layer-activator">NumFunc</text>
 </a><text x="322" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
@@ -1174,8 +1176,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
-<a href="#Num">
-<text x="322" y="203" class="combo tap layer-activator">Num</text>
+<a href="#NumFunc">
+<text x="322" y="203" class="combo tap layer-activator">NumFunc</text>
 </a><text x="322" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
@@ -1447,8 +1449,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
-<a href="#Num">
-<text x="322" y="203" class="combo tap layer-activator">Num</text>
+<a href="#NumFunc">
+<text x="322" y="203" class="combo tap layer-activator">NumFunc</text>
 </a><text x="322" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
@@ -1713,8 +1715,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="308" y="190" width="28" height="26" class="combo"/>
-<a href="#Num">
-<text x="322" y="203" class="combo tap layer-activator">Num</text>
+<a href="#NumFunc">
+<text x="322" y="203" class="combo tap layer-activator">NumFunc</text>
 </a><text x="322" y="214" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">

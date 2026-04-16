@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - MINUS
-  - {t: ENTER, h: Num}
+  - {t: ENTER, h: NumFunc}
   - LSHFT
   - Z
   - X
@@ -42,7 +42,7 @@ layers:
   - LALT
   - INTERNATIONAL 5
   - SPACE
-  - {t: SPACE, h: kigo}
+  - {t: SPACE, h: NumFunc}
   - {t: ENTER, h: kigo}
   - LEFT
   - DOWN
@@ -54,7 +54,7 @@ layers:
   - RIGHT
   - HOME
   - PG UP
-  - {t: Num, h: toggle}
+  - {t: Mouse, h: toggle}
   - PG DN
   - END
   - ''
@@ -72,7 +72,7 @@ layers:
   - Sft+8
   - Sft+9
   - {t: ▽, type: trans}
-  - '&tog_ls'
+  - LANG ZENKAKUHANKAKU
   - Sft+6
   - Sft+7
   - DOLLAR
@@ -101,8 +101,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,7 +118,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Num:
+  NumFunc:
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -356,6 +356,6 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [39, 40]
-  k: {t: Num, h: toggle}
+  k: {t: NumFunc, h: toggle}
 - p: [40, 39, 29]
   k: Scr
