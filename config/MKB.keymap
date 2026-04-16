@@ -12,6 +12,8 @@
 #define MOUSE 3
 #define SCROLL 4
 #define BT 5
+#define MOUSE_LOW 6
+
 #define JP_MINUS MINUS        // -
 #define JP_CARET EQUAL        // ^
 #define JP_YEN   INT3         // ¥
@@ -63,12 +65,12 @@
         compatible = "zmk,combos";
 
         mouse_Layer {
-            bindings = <&tog 2>;
+            bindings = <&tog MOUSE>;
             key-positions = <39 40>;
         };
 
         bt_Layer {
-            bindings = <&mo 4>;
+            bindings = <&mo BT>;
             key-positions = <40 39 29>;
         };
     };
@@ -89,7 +91,7 @@
             label = "Base";
             bindings = <
 &kp TAB        &kp Q     &kp W                    &kp E     &kp R                &kp T          &kp Y        &kp U        &kp I      &kp O     &kp P      &kp BACKSPACE
-&kp CAPSLOCK   &kp A     &kp S                    &kp D     &kp F                &kp G          &kp H        &kp J        &kp K      &kp L     &kp MINUS  &lt 2 ENTER
+&kp CAPSLOCK   &kp A     &kp S                    &kp D     &kp F                &kp G          &kp H        &kp J        &kp K      &kp L     &kp MINUS  &kp ENTER
 &kp LSHFT      &kp Z     &kp X                    &kp C     &kp V                &kp B          &kp N        &kp M        &kp COMMA  &kp DOT   &kp UP     &kp FSLH
 &mt LCTRL ESC  &kp LGUI  &kp LALT                           &kp INTERNATIONAL_5  &kp SPACE      &lt 2 SPACE  &lt 1 ENTER             &kp LEFT  &kp DOWN   &kp RIGHT
 &kp LEFT       &kp UP    &kp LANG_ZENKAKUHANKAKU  &kp DOWN  &kp RIGHT                                        &kp HOME     &kp PG_UP  &tog 3    &kp PG_DN  &kp END
@@ -128,12 +130,12 @@
         };
 
         mouse_layer {
-            label = "Mouse";
+            label = " TB ";
             bindings = <
 &trans    &trans  &trans    &msc MOVE_Y(20)  &msc MOVE_Y(-20)  &mkp MB5      &mkp MB5  &trans    &trans     &trans    &trans     &trans
 &trans    &trans  &mkp MB2  &mkp MB3         &mkp MB1          &mkp MB4      &mkp MB4  &mkp MB1  &mkp MB3   &mkp MB2  &trans     &trans
 &trans    &trans  &trans    &trans           &trans            &trans        &trans    &trans    &trans     &trans    &trans     &trans
-&trans    &trans  &trans                     &trans            &trans        &trans    &trans               &trans    &trans     &trans
+&trans    &trans  &trans                     &mo 6            &trans        &trans    &trans               &trans    &trans     &trans
 &kp LEFT  &kp UP  &trans    &kp DOWN         &kp RIGHT                                 &kp HOME  &kp PG_UP  &trans    &kp PG_DN  &kp END
                             &trans                                                               &trans
             >;
@@ -164,6 +166,20 @@
 &trans      &trans        &trans                      &trans        &trans            &trans          &trans               &trans  &trans     &trans
 &kp LEFT    &kp UP        &trans        &kp DOWN      &kp RIGHT                                       &kp HOME  &kp PG_UP  &trans  &kp PG_DN  &kp END
                                         &trans                                                                  &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+
+        mouse_low_layer {
+            label = "_TB_";
+            bindings = <
+&trans    &trans  &trans    &msc MOVE_Y(20)  &msc MOVE_Y(-20)  &mkp MB5      &mkp MB5  &trans    &trans     &trans    &trans     &trans
+&trans    &trans  &mkp MB2  &mkp MB3         &mkp MB1          &mkp MB4      &mkp MB4  &mkp MB1  &mkp MB3   &mkp MB2  &trans     &trans
+&trans    &trans  &trans    &trans           &trans            &trans        &trans    &trans    &trans     &trans    &trans     &trans
+&trans    &trans  &trans                     &trans            &trans        &trans    &trans               &trans    &trans     &trans
+&kp LEFT  &kp UP  &trans    &kp DOWN         &kp RIGHT                                 &kp HOME  &kp PG_UP  &trans    &kp PG_DN  &kp END
+                            &trans                                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
